@@ -14,4 +14,15 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <style name="Theme.DeliveryManager.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_background</item>
+        <item name="postSplashScreenTheme">@style/Theme.DeliveryManager</item>
+
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:navigationBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+    </style>
+
+
 </resources>
